@@ -1,6 +1,6 @@
 
 myDog1 = .Dog~new("Buddy", "Golden Retriever")
-myDog2 = .Dog~new("Luna", "Beagle")
+myDog2 = .Dog~new("Luna", "Husky")
 
 
 myDog1~introduce
