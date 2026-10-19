@@ -1,0 +1,32 @@
+say "================================="
+say "   Welcome to ooRexx Playground  "
+say "================================="
+say ""
+
+
+say "Please enter your name:"
+pull userName
+
+if userName = "" then userName = "Student"
+
+say "Hello, "userName"! Let's do some math."
+say ""
+
+say "Enter first number:"
+pull num1
+
+say "Enter second number:"
+pull num2
+
+
+sum  = num1 + num2
+diff = num1 - num2
+prod = num1 * num2
+
+
+say ""
+say "--- Results ---"
+say num1 "+" num2 "=" sum
+say num1 "-" num2 "=" diff
+say num1 "*" num2 "=" prod
+say "================================="

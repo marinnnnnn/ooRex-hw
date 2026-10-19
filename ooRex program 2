@@ -1,0 +1,29 @@
+
+myDog1 = .Dog~new("Buddy", "Golden Retriever")
+myDog2 = .Dog~new("Luna", "Beagle")
+
+
+myDog1~introduce
+myDog1~bark
+
+say "---------------------------------"
+
+myDog2~introduce
+myDog2~bark
+
+exit
+
+
+::class Dog
+
+::method init
+  expose name breed
+  use arg name, breed
+
+::method introduce
+  expose name breed
+  say "Hi, I am "name" and I am a "breed"."
+
+::method bark
+  expose name
+  say name "says: Woof! Woof!"
